@@ -1,0 +1,31 @@
+{
+  "name": "usb-key-gui",
+  "version": "1.0.4",
+  "main": "dist/main.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "npm run build && electron .",
+    "dist": "npm run build && electron-builder"
+  },
+  "build": {
+    "appId": "github.con/engrmh",
+    "productName": "Key Maker",
+    "copyright": "Copyright © 2025 Engr.MH",
+    "directories": {
+      "output": "release"
+    },
+    "files": [
+      "dist/**/*",
+      "package.json"
+    ],
+    "win": {
+      "target": "nsis",
+      "icon": "build/secure.png"
+    }
+  },
+  "devDependencies": {
+    "electron": "^29.0.0",
+    "electron-builder": "^26.0.12",
+    "typescript": "^5.0.0"
+  }
+}
