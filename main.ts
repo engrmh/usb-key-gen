@@ -6,7 +6,7 @@ import * as child_process from "child_process";
 
 let mainWindow: BrowserWindow;
 
-const PASSWORD = "SmHsB1379Engr.m@#github.com/engrmh";
+const PASSWORD = "569907ec1e39a723ca3842fb77d805812edf303565025464bfb86c3b926a8a1e1b2fd815e74b7a9d857db855309960c019440a0d01a9221a9ab92d7533296b11c76e5ab1fec64230a186c62f98ababe5b884e04f54ada482e6e6cf3385b657ae7ffa1a2e648679c732e00009b47c349a84f3a6d57b3cf6e65b91674ac4a3c4b276c4fcf500a81769ce8fa2abeeb4b0d0184296d32ada4afdaa5780f332953bb5e412aba888adc13f939d4446c3958131f45fd12120b7cc6e013abd8c1d0a84ba295a07b55377656c5a5e785579dbc58027af5827c1d69ba3ed41a36aa0dd2079f390bfc01d0b7ec5ac95a523a85204fb8e7d6126ea499772cdf3c6acae589d9c";
 
 const getUSBSerialWindows = (): string => {
   try {
